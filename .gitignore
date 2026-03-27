@@ -116,3 +116,7 @@ target/
 !config_examples/config_freqai.example.json
 
 docker-compose-*.yml
+-e 
+# Environment files
+*.env
+*.env.*
