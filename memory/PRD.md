@@ -16,6 +16,8 @@ Freqtrade is a free, open-source crypto trading bot written in Python. Supports 
 - ✅ Created comprehensive Go Live Guide (`/app/GO_LIVE_GUIDE.md`)
 - ✅ Configured for Binance exchange (dry-run mode)
 - ✅ Enabled API server with FreqUI support
+- ✅ Built custom React dashboard connecting to Freqtrade API
+- ✅ Dashboard shows balance, profit, open trades, config, trading pairs
 
 ### Configuration Details
 - **Mode**: Dry Run (paper trading with $1000 virtual)
@@ -23,6 +25,11 @@ Freqtrade is a free, open-source crypto trading bot written in Python. Supports 
 - **Timeframe**: 5m
 - **Strategy**: SampleStrategy (RSI + TEMA + Bollinger Bands)
 - **Pairs**: BTC, ETH, BNB, SOL, XRP, ADA, AVAX, DOGE, DOT, LINK
+- **API Port**: 8001
+
+### Dashboard Credentials
+- **Username**: freqtrader
+- **Password**: SuperSecurePassword123
 
 ## User Personas
 1. **Crypto Trader**: Wants automated trading bot
